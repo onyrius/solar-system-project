@@ -13,7 +13,9 @@ class PlanetCard extends React.Component {
     );
   }
 }
-
+/** Source sobre protoTypes:
+ * https://github.com/tryber/sd-018-b-project-solar-system/pull/62/files
+ */
 PlanetCard.propTypes = {
   planetName: PropTypes.string.isRequired,
   planetImage: PropTypes.string.isRequired,
