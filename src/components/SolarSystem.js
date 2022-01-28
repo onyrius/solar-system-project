@@ -1,5 +1,3 @@
-/* eslint-disable arrow-body-style */
-/* eslint-disable indent */
 import React from 'react';
 import Title from './Title';
 import PlanetCard from './PlanetCard';
