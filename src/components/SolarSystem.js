@@ -11,7 +11,7 @@ class SolarSystem extends React.Component {
       <>
         <div data-testid="solar-system" />
         <Title headline="Planetas" />
-        {Planets.map(({ name, image }) => {
+        {Planets.map(({ name, image }) => { // desestrutura o obj de data/planets e faz map para listar todos os planetas.
         return (<PlanetCard
           key={ name }
           planetName={ name }
