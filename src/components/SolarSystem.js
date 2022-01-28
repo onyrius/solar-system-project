@@ -1,7 +1,9 @@
+/* eslint-disable arrow-body-style */
+/* eslint-disable indent */
 import React from 'react';
 import Title from './Title';
-// import planets from '../data/planets';
 import PlanetCard from './PlanetCard';
+import Planets from '../data/planets';
 
 class SolarSystem extends React.Component {
   render() {
@@ -9,7 +11,13 @@ class SolarSystem extends React.Component {
       <>
         <div data-testid="solar-system" />
         <Title headline="Planetas" />
-        <PlanetCard />
+        {Planets.map(({ name, image }) => {
+        return (<PlanetCard
+          key={ name }
+          planetName={ name }
+          planetImage={ image }
+        />);
+       })}
       </>);
   }
 }

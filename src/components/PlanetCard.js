@@ -5,15 +5,14 @@ class PlanetCard extends React.Component {
   render() {
     const { planetName, planetImage } = this.props;
     return (
-      <div>
-        <p data-testid="planet-card">{planetName}</p>
+      <div data-testid="planet-card">
+        <p data-testid="planet-name">{planetName}</p>
         <img src={ planetImage } alt={ `Planeta ${planetName}` } />
-
       </div>
     );
   }
 }
-/** Source sobre protoTypes:
+/** Source: github Carol Sò
  * https://github.com/tryber/sd-018-b-project-solar-system/pull/62/files
  */
 PlanetCard.propTypes = {
