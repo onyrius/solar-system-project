@@ -13,7 +13,6 @@ class MissionCard extends React.Component {
       </div>);
   }
 }
-
 const { string } = PropTypes;
 MissionCard.propTypes = {
   name: string.isRequired,
