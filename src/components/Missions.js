@@ -1,6 +1,8 @@
 import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import Title from './Title';
 import MissionCard from './MissionCard';
+import missions from '../data/missions';
 
 class Missions extends React.Component {
   render() {
@@ -10,7 +12,7 @@ class Missions extends React.Component {
         {
           missions.map(({ name, year, country, destination }) => (
             <MissionCard
-              key={ uuidv4() }
+              key={ uuidv4() } // uuidv4 - biblioteca de id;
               name={ name }
               year={ year }
               country={ country }
