@@ -1,4 +1,4 @@
-# Solar System Project 
+# 🪐 Solar System Project :alien:
 
 <p> Nosso primeiro projeto em React! Mesmo sendo relativamente simples, tivemos mais ou menos uma semana para aprender e aplicar os conhecimentos</p>
 
