@@ -9,17 +9,20 @@ class Missions extends React.Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        {
-          missions.map(({ name, year, country, destination }) => (
-            <MissionCard
-              key={ uuidv4() } // uuidv4 - biblioteca de id;
-              name={ name }
-              year={ year }
-              country={ country }
-              destination={ destination }
-            />
-          ))
-        }
+        <section className="missions-container">
+          {
+            missions.map(({ name, year, country, destination }) => (
+              <MissionCard
+                key={ uuidv4() } // uuidv4 - biblioteca de id;
+                name={ name }
+                year={ year }
+                country={ country }
+                destination={ destination }
+              />
+
+            ))
+          }
+        </section>
       </div>
     );
   }

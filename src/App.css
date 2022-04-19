@@ -1,3 +1,103 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('https://img.freepik.com/vetores-gratis/ilustracao-de-um-homem-com-um-telescopio_15870-45.jpg');
+  background-repeat: no-repeat;
+}
+
+.telescope-Woman {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  width: 300px;
+
+}
+
+.header-Solar-System {
+  font-family: Quantico , sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container-planet {
+  background-image: url('https://wallpaperaccess.com/full/45403.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: aliceblue;
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.planet-card {
+  margin: 0;
+  padding: 0;
+
+}
+
+.planet-name {
+  font-size: 30px;
+  text-align: center;
+}
+
+.title-missions {
+  color: black;
+  font-family: Quantico , sans-serif;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.missions-container {
+  align-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mission-card {
+  align-items: center;
+  background-color: rgb(7, 3, 64);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: rgb(247, 242, 242);
+  font-family: Quantico , sans-serif;
+  font-size: 30px;
+  margin: 3px;
+  text-align: center;
+  width: 25%;
+}
+
+.mission-card:hover {
+  background-color: black;
+  box-shadow: 0 0 8em gold;
+
+}
+
+
+/* .item {
+  flex-grow: 1;
+  height: 100px;
+  background-color: darkred;
+  position: relative;
+  border: 1px solid lighten(black, 10);
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    flex-grow: 4.3;
+    background-color: lighten(darkred, 20);
+  }// hover
+
+  &:before {
+    content: attr(data-order);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }// before
+
+}// item */
