@@ -24,10 +24,7 @@
 
 ### Desenvolvimento
 
-Foi desenvolvido uma aplicação em React com criação de componentes de classe e passagem de props. Essa aplicação simulará uma visualização do **Sistema Solar**, bem como informações sobre diversas missões espacias que ocorreram ao longo da história.
-
-As imagens dos planetas e as informações das missões são fornecidas no projeto. Você terá que desenvolver os componentes necessários para exibi-las na tela, conforme o descrito nos requisitos.
-
+Foi desenvolvida uma aplicação em React com criação de componentes de classe e passagem de props. Essa aplicação simula uma visualização do **Sistema Solar**, bem como informações sobre diversas missões espacias que ocorreram ao longo da história.
 
 
 ### Observações técnicas
